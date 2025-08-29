@@ -15,7 +15,10 @@ from Tools import Music, Button as GameButton
 from ai_game_rule_generator import AIGameRuleGenerator
 from ai_strategy_generator import AIGameStrategyGenerator
 
-# 注意：目前使用优化的简单AI控制器，强化学习控制器暂时未使用
+# 注意：现在使用双重AI系统，包括强化学习控制器和规则AI控制器
+# - AI战机控制器：HybridAIController (结合训练模型和规则AI)
+# - AI决策控制器：AIDecisionController (使用训练好的PPO模型)
+# - 备用方案：OptimizedAIController (规则AI)
 
 class RandomBackgroundGenerator:
     """随机背景生成器"""
