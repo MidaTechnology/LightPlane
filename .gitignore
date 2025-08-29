@@ -1,0 +1,7 @@
+/ai_controllers/models
+/models
+/processed_images
+/logs
+/__pycache__
+/ai_controllers/__pycache__
+/ai_controllers/logs
